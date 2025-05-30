@@ -1,0 +1,15 @@
+/* style.css */
+nav a:hover {
+    text-decoration: underline;
+}
+header {
+    letter-spacing: 5px;
+}
+.image-row img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+.button:hover, .button-outline:hover {
+    background-color: black;
+    color: white;
+}
