@@ -1,0 +1,96 @@
+/* style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4B0000, #B30000);
+    color: white;
+  }
+  
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+
+  .search-box{
+    background-color: black;
+    margin: 10px solid darkgrey;
+    padding: 10px;
+    border-radius: 4px;
+    
+  }
+
+  .logo {
+    height: 70px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-side a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .content {
+    text-align: left;
+    padding: 80px 20px;
+  }
+
+  .content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+  }
+
+  .content button {
+    background-color: red;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .missions {
+    display: flex;
+    justify-content: start;
+    gap: calc(100vh / 3);
+    padding: 80px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .mission {
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+  }
+  
+  .mission h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .mission p {
+    font-size: 16px;
+    color: #FF6666;
+  }
